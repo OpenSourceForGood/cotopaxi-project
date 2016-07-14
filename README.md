@@ -1,16 +1,16 @@
-OpenWest Conference 
+# IRC Refugee Project
 
 Community development is a reciprocal process. We invite you to join us and explore the potential of the open source methodology in the social sector.
 
-Quick facts - Refugees in Utah:
+### Quick facts - Refugees in Utah:
 
-1. 60k refugees, mostly in Salt Lake Valley, ~25 communities
+* 60k refugees, mostly in Salt Lake Valley, ~25 communities
 
-2. Last year along there were about 1200 refugees resettled. This year expecting 1,200-1,300. 
+* Last year along there were about 1200 refugees resettled. This year expecting 1,200-1,300. 
 
-3. Service providers are expecting a few new groups - Congolese, Syrian, Somali and Sudanese.
+* Service providers are expecting a few new groups - Congolese, Syrian, Somali and Sudanese.
 
-Community Development Principles: 
+### Community Development Principles: 
 
 * Solutions should focus on the simple and impactful. 
 
@@ -18,11 +18,13 @@ Community Development Principles:
 
 * Listen. Be nimble, adjust. Iterate. Pilot. Test.
 
-IRC
+### IRC Ask
 
-Could we build a platform that has the basic architecture. They plug in the specifics: 
+The IRC helps settle refugees over a 24 month period where they prepare them to be self sufficient.  After those 24 months they leave the IRC system.  They need a way to continue to track and support these individuals and provide help if there are indications of problems.
 
-* Lesson plans 
+Could we build a platform that includes the following: 
+
+* Periodic surveys to check for progress and potential problems
 
 * Links to resources
 
@@ -32,15 +34,26 @@ Could we build a platform that has the basic architecture. They plug in the spec
 
 * Easy for IRC to populate
 
+* Notifications for important refugee activities (immunization appointments for them and their children)
+
 Localization + languages: Arabic, Somali, Nepali, Swahili, Tingrinye, French, Spanish, Kirundi, Farsi
 
-Provides a voice to the client back to the IRC. 
+Provides a voice from the client back to the IRC. 
 
 Would increase access to resource opportunities.
 
 As new resources are introduced or are changed, the IRC can share that information as outreach through the app.
 
-Client identifies language or IRC assigns language. App is presented in English & first language. Can we do a voice for each question?
+Client identifies language or IRC assigns language. App is presented in English & first language. 
+
+
+Survey section: IRC sends out every 6 months. Building a framework for the IRC to track longitudinal data. Survey completion rate. Trigger a reward or gift card for every survey completed. IRC needs to be able to run a report to see how people responded so they can case manage appropriately.
+
+* How are people progressing
+
+* Is there a need for the IRC to loop back and provide follow up services
+    
+### Categories for services and sample questions
 
 Health: 
 
@@ -51,16 +64,6 @@ Health:
 Microenterprise: 
 
 * When is your loan due
-
-Survey section: IRC sends out every 6 months. Building a framework for the IRC to track longitudinal data. Survey completion rate. Trigger a reward or gift card for every survey completed. IRC needs to be able to run a report to see how people responded so they can case manage appropriately.
-
-* How are people progressing
-
-* Is there a need for the IRC to loop back and provide follow up services
-
-* IRC needs to be able to identify the person
-
-    * If it’s someone the IRC didn’t case manage, they’d need fields for first name, last name, date of birth, country of origin, primary language, and number of people in household, phone, email
 
 * Housing: 
 
@@ -87,62 +90,3 @@ Survey section: IRC sends out every 6 months. Building a framework for the IRC t
     * Are you able to have appts without interpreters
 
     * Are your children passing school
-
-Use case: 
-
-* family tracking each of these tiers
-
-Not public: 
-
-* Drag and drop fields that help them build templates for each of their program areas
-
-Economic Empowerment
-
-Health
-
-Education
-
-Safety
-
-Client Services 
-
-User object
-
-* parameters
-
-* attributes
-
-* fields 
-
-Interactivity
-
-* resources
-
-Push notifications
-
-Survey attributes 
-
-Use case
-
-* we want user x to be able to log into the app and find resources that pertain to their needs
-
-* we want the IRC to be able to push a survey to all registered users
-
-* Data infrastructure
-
-    * User object
-
-    * Survey object
-
-Goal: Build a world class that addresses the above.
-
-Frame the challenge: We have these refugees that go through our programs. We don’t want to lose them at 24 months. It helps us strengthen our community, connect to resources, etc.
-
-We have a need. 1st half hour is a spec session. We talk through the use cases. Have a moderator who can translate into architecture on a white board. We build the full architecture. Outcome is vetted by a technical group. 
-
-Max 10 people per group. Have groups present their solutions.
-
-Outcome: 
-
-* Create the application architecture and the data model and resource requirements to build it.
-
